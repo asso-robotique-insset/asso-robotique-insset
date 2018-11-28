@@ -1,0 +1,168 @@
+---
+layout: page
+title: Flash-bot club robotique
+permalink: /
+---
+
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp"><b>Association robotique  de  <br>  L'INSSET</b></</h1>
+          <p class="animated fadeInUp"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Qui sommes nous</h2>
+            <p> <bold>F</bold>lash-bot est une équipe créée par les étudiants de <a href="http://www.insset.u-picardie.fr" target="_blank">l’INSSET </a> de l'université Picardie Jules Verne. En 2018. Notre but est de nous amuser, en réalisant notre passion, tout en participant à la coupe de robotique que nous ne cessons de promouvoir autour de nous....
+            </p>
+        </div>
+        <p>Flash-Bot est un club de l'association de robotique de l'université picardie Jules Verne. L'association de robotique de l'insset a trois principaux objectifs centrés sur la robotique : </p>    
+        <ul>
+              <li><p>- Découvrir & faire découvrir la robotique.</p></li>
+              <li><p>- Regrouper & partager les savoirs techniques : mécanique, électronique, informatique.</p></li>
+              <li><p>- Créer des robots pour la participation annuelle à la Coupe de France de Robotique.</p></li>
+        </ul>
+        
+        </div>
+    
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/wrapper-img.png" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>Nos Activités </h2>
+      <p>La Coupe de France de Robotique est un défi ludique, scientifique et technique de robotique amateur qui s’adresse à des équipes de jeunes passionné(e)s de la robotique ou ayant des projets éducatifs vers les jeunes.</p>
+      <p>Les participants doivent concevoir puis réaliser un robot autonome, conforme au règlement, à l’esprit de cette rencontre et apte à participer aux matchs. Les participants peuvent être suivis par un enseignant, mais la conception et la réalisation des robots doivent être le fruit de leurs réflexions.</p>
+      <p>La conformité des robots au règlement fera l’objet d’une homologation. Le concours comporte une phase qualificative puis une phase finale par élimination directe.
+        Les trois premières équipes françaises, et une équipe ayant reçu un prix spécial, rencontreront leurs homologues internationaux au cours de la finale d’Eurobot Open.</p>
+      <a href="#" class="btn btn-view-works">View Works</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Notre objectif</h2>
+        <p>Notre objectif est de développer des compétences en informatique et en robotique, amplifier le plaisir d’apprendre, et d'apprendre à travailler en équipe autour de projets.
+        </p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4>Mécanique</h4>
+          <p>Les robots sont entièrement conçus par notre équipe dans l'atelier de l'INSSET </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Eléctronique</h4>
+          <p>Nous réalisons les cartes électoniques en fonction des contraintes mécaniques </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-image"></i>
+          <h4>Design</h4>
+          <p> Nous adapterons le design au théme déployé </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Informatique</h4>
+          <p>Nos programme nous les adaptons suite aux actions du règlement. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Actualités.</h2>
+          <p>Pour suivre l'actualité et tous nos réalisations l'équipe a mis a votre disposition un blog pour vous rapprocher de notre état d'avancement.</p>
+          <a class="btn btn-default btn-call-to-action" href="#" >Notre Blog</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Notre équipe</h2>
+        <!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

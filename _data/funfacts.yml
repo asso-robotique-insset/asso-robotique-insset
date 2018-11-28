@@ -1,0 +1,12 @@
+- counter: 8
+  icon: ion-ios-chatboxes-outline
+  text: Membres
+- counter: 3
+  icon: ion-ios-glasses-outline
+  text: Robots
+- counter: 20
+  icon: ion-ios-compose-outline
+  text: Activités
+- counter: 184
+  icon: ion-ios-timer-outline
+  text: Jours
